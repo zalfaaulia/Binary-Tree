@@ -19,7 +19,8 @@ def countLeaf(node):
         return 1
     else:
         return countLeaf(node.left) + countLeaf(node.right)
-    
+ 
+#just some example
 angka = Node(1)
 
 angka.left = Node(7)
